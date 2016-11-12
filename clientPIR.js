@@ -30,4 +30,4 @@ module.exports.DesactivarPIR = function(server){
   });
 }
 
-	console.log('Cliente PIR RaspberryPI 3Iniciando...');
+	console.log('Cliente PIR RaspberryPI 3 Iniciando...');

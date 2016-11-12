@@ -14,7 +14,7 @@ module.exports.ActivarAGUA = function(server){
     // Revol/Lt = 600
 	if(count-log>100){
 	console.log('Caudal en litros: '+ (count/100) + 'Lt' +' Caudal en cm3: '+ count/1000 +'cm3');
-	socket.emit('Evento-caudal', count/100);
+	socket.emit('msgAGUA', count/100);
 	log = 1;
 	}});
   }

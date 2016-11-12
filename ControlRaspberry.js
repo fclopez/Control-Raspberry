@@ -1,6 +1,6 @@
 /*dependencias*/
 var io = require('socket.io-client');
-var socket = io.connect('http://localhost:8000',{reconnect:true});
+var socket = io.connect('https://server-socket.herokuapp.com/',{reconnect:true});
 var leds = require('./clientLED');
 var pir = require('./clientPIR');
 var gas = require('./clientMQ2');
